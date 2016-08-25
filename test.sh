@@ -2,7 +2,7 @@
 
 testsPassed=0
 function testString {
-    if [ ! -f $2 ]; then
+    n
         echo "File $2 not found!"
         exit 2
     fi
